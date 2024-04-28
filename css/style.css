@@ -1,0 +1,125 @@
+header{
+    background-image: url("/hellosection.jpg");
+    height: 90vh;
+    min-height: 400px;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-size: 18px;
+    margin-right: 40px;
+
+}
+
+
+
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 30px;
+}
+.navbar-brand img{
+    height: 60px;
+    width: 150px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px 5px 10px 5px;
+}
+.big-dark{
+    background-color: white !important;
+}
+
+/* for grid section */
+img{
+    max-width: 100%;
+}
+.Gallery{
+    background-color: rgb(255, 240, 240);
+    padding: 80px 0px;
+
+}
+.Gallery img{
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.Gallery-modal .modal-img{
+   width: 100%;
+   
+}
+
+@media (max-width:600px){
+    .navbar-collapse{
+        background: white ;
+    }
+}
+
+/* Testimonials sction */
+.testimonials{
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    position: relative;
+    padding-bottom: 100px;
+    font-family: sans-serif;
+}
+.section-heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-transform: capitalize;
+    color: #dee2e6;
+}
+.carousel-item{
+    min-height: 500px;
+    position: relative;
+
+}
+.carousel-img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    border: 2px solid #dee2e6;
+}
+.carousel-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.carousel-caption{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    bottom: 50px;
+    padding: 50px 0;
+    color: #dee2e6;
+}
+.testimonials-name{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.testimonial-icon{
+    font-size: 40px;
+    color: #dee2e6;
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+
+
+
+@media (max-width:600px){
+    .navbar-collapse{
+        background: white ;
+    }
+}
